@@ -2,11 +2,11 @@
 
 This was a comparison of the Explicit Euler and Verlet integration methods to simulate a collection of seven argon atoms that are governed by the following Hamiltonian
 
-<img src="https://latex.codecogs.com/svg.latex?H(r,p)%20=%20\frac{1}{2}\sum_{i=1}^{N}\frac{1}{m_i}p_i^Tp_i%20+%20\sum_{i=2}^{N}\sum_{j=1}^{i-1}%20U_{ij}\left(||q_i-q_j||\right)" /> 
+![Hamiltonian](https://latex.codecogs.com/svg.latex?H(r,p)%20=%20\frac{1}{2}\sum_{i=1}^{N}\frac{1}{m_i}p_i^Tp_i%20+%20\sum_{i=2}^{N}\sum_{j=1}^{i-1}%20U_{ij}\left(||q_i-q_j||\right))
 
 with the Lennard-Jones potential
 
-<img src="https://latex.codecogs.com/svg.latex?U_{ij}(r)%20=%204\epsilon_{ij}%20\left(%20\left(\frac{\sigma_{ij}}{r}\right)^{12}%20-%20\left(\frac{\sigma_{ij}}{r}\right)^{6}%20\right)." /> 
+![LJ](https://latex.codecogs.com/svg.latex?U_{ij}(r)%20=%204\epsilon_{ij}%20\left(%20\left(\frac{\sigma_{ij}}{r}\right)^{12}%20-%20\left(\frac{\sigma_{ij}}{r}\right)^{6}%20\right).)
 
 The constants needed are defined in the code with units. The atoms all have a starting position and velocity (specified in the code along with units as well). The aim was to replicate results from section 1 I.4 Molecular Dynamics in the text "Geometric Numerical Integration". 
 
