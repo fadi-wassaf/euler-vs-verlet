@@ -28,6 +28,6 @@ Again you can see Verlet method hovers around a constant value while the Explici
 :-------------------------:|:-------------------------:
 ![euler-energy](./animations/euler_20.0fs.gif)|![verlet-energy](./animations/verlet_20.0fs.gif)
 
-It's very clear here that for this higher time-step, the Verlet method is better able to simulate how these atoms should stay near their original positions while the atoms end up scattering in the Explicit Euler simulation.
+It's very clear here that for this higher length time-step, the Verlet method is more accurately able to simulate how these atoms should stay near their original positions while the atoms end up scattering in the Explicit Euler simulation.
 
 
